@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- HTML5 document declaration -->
+<html lang="en">
+  <!-- Set language to English -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Character encoding set to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensures responsive design on all devices -->
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Icon Library: Remix Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+
+    <!-- Sakura animation CSS -->
+    <link rel="stylesheet" href="/assets/css/sakura.min.css" />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Animated temple website</title>
+    <!-- Website title -->
+  </head>
+
+  <body>
+    <!-- Navigation header with logo and menu links -->
+    <header class="header" id="header">
+      <!-- Page header with an ID for reference -->
+      <nav class="nav container">
+        <!-- Navigation bar inside a container -->
+        <a href="#" class="nav-logo">
+          <!-- Logo link -->
+          <i class="ri-ancient-gate-line"></i>
+          <!-- Temple gate icon from Remix Icon -->
+          <span> Temple </span>
+          <!-- Text logo -->
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <!-- Navigation menu container -->
+          <ul class="nav-list">
+            <!-- Unordered list of navigation links -->
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+              <!-- Navigation link -->
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Location</a>
+              <!-- Navigation link -->
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About</a>
+              <!-- Navigation link -->
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Explore</a>
+              <!-- Navigation link -->
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+              <!-- Navigation link -->
+            </li>
+          </ul>
+
+          <div class="nav-close" id="nav-close">
+            <!-- Close icon for mobile menu -->
+            <i class="ri-close-large-line"></i>
+            <!-- Remix Icon for close -->
+          </div>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <!-- Hamburger menu icon for mobile -->
+          <i class="ri-apps-2-line"></i>
+          <!-- Remix Icon for menu toggle -->
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="main">
+      <!-- Home section with background, welcome message, and imagery -->
+      <section class="home">
+        <img src="/assets/img/img-bg.svg" alt="Image" class="home-bg" />
+        <!-- Background image -->
+
+        <div class="home-container container">
+          <!-- Container for home content -->
+          <div class="home-data">
+            <!-- Textual content block -->
+
+            <h1 class="home-title">
+              Welcome to<br />
+              the Temple
+            </h1>
+            <!-- Main heading -->
+
+            <p class="home-description">
+              Step into a realm where ancient stones breathe stories and the
+              breeze carries calm. Let your spirit wander through sacred paths
+              bathed in gentle light.
+            </p>
+            <!-- Introductory paragraph -->
+
+            <a href="#" class="home-btn">Begin Your Journey</a>
+            <!-- Call-to-action button -->
+
+            <img
+              src="/assets/img/lantern-1.svg"
+              alt="Image"
+              class="home-lantern-1"
+            />
+            <!-- Decorative lantern image -->
+
+            <img
+              src="/assets/img/lantern-2.svg"
+              alt="Image"
+              class="home-lantern-2"
+            />
+            <!-- Another decorative lantern -->
+          </div>
+
+          <div class="home-images">
+            <!-- Container for animated images -->
+            <img src="/assets/img/img-1.svg" alt="Image" class="home-img-1" />
+            <!-- Animated image -->
+            <img src="/assets/img/img-2.svg" alt="Image" class="home-img-2" />
+            <!-- Animated image -->
+            <img src="/assets/img/img-3.svg" alt="Image" class="home-img-3" />
+            <!-- Animated image -->
+            <img src="/assets/img/img-4.svg" alt="Image" class="home-img-4" />
+            <!-- Animated image -->
+            <img src="/assets/img/img-5.svg" alt="Image" class="home-img-5" />
+            <!-- Animated image -->
+            <img src="/assets/img/img-6.svg" alt="Image" class="home-img-6" />
+            <!-- Animated image -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Container for animated sakura petals -->
+    <div class="sakura-petals"></div>
+
+    <!-- Animation library: GSAP -->
+    <script src="/assets/js/gsap.min.js"></script>
+
+    <!-- Sakura effect script -->
+    <script src="/assets/js/sakura.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
