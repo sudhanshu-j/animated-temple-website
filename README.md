@@ -8,7 +8,7 @@ Welcome to the **Animated Temple Website** — a calming, immersive, and aesthet
 
 ## 🌐 Live Demo
 
-[🔗 View Demo](https://your-live-demo-link.com) 
+[🔗 View Demo](https://animated-temple-website.netlify.app/) 
 
 ---
 
